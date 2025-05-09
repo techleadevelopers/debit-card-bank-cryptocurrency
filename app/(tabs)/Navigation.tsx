@@ -6,7 +6,7 @@ import HomeScreen from './HomeScreen';
 
 const Stack = createStackNavigator();
 
-export default function App() {
+const Navigation = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Login" screenOptions={{ headerShown: false }}>
@@ -15,4 +15,6 @@ export default function App() {
       </Stack.Navigator>
     </NavigationContainer>
   );
-}
+};
+
+export default Navigation;
