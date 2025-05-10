@@ -48,3 +48,43 @@ Join our community of developers creating universal apps.
 
 - [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
 - [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+
+
+
+CRYPTO-BANK/
+├── .expo/
+├── .vscode/
+├── app/
+│   ├── (tabs)/
+│   │   ├── _layout.tsx
+│   │   ├── App.tsx
+│   │   ├── explore.tsx
+│   │   ├── HomeScreen.tsx
+│   │   ├── index.tsx
+│   │   └── LoginScreen.tsx
+│   ├── styles.ts
+│   └── types.ts
+├── pages/
+│   └── LoginScreen.tsx
+├── assets/
+├── components/
+│   ├── ui/
+│   ├── CreditCardComponent.tsx
+│   ├── CryptoActionsComponent.tsx
+│   ├── CryptoBalanceComponent.tsx
+│   ├── HeaderComponent.tsx
+│   ├── NavbarComponent.tsx
+│   ├── RecentTransactionsComponent.tsx
+│   └── TabTwoScreen.tsx
+├── constants/
+├── hooks/
+├── node_modules/
+├── scripts/
+├── .gitignore
+├── app.json
+├── eslint.config.js
+├── expo-env.d.ts
+├── package-lock.json
+├── package.json
+├── README.md
+└── tsconfig.json
